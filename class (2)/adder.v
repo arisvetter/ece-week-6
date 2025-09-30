@@ -4,11 +4,11 @@ module adder(
     // Declare Y output
     output Y
     // Declare carry output
-    output carry
+    output Cin
 );
 
     // Enter logic equation here
     assign Y = A ^ B;
-    assign carry = A & B;
+    assign Cin = A & B;
 
 endmodule
