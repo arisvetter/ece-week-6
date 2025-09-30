@@ -12,6 +12,9 @@ In this lab you've learned the basics of number theory as it relates to addition
 | Question 3 | Your answers to the question | 25% |
 
 ## Lab Questions
+Summary:
+
+In this lab, we created three different modules: a light module that simulated a double stairway light switch, an adder, and a full adder. For the stairway light, we used an XOR equation to represent that we only wanted the light on if just one switch was on. In top.v, we connected the switches with inputs and leds with outputs, and created two full adder instances to handle the two-bit addition. For the first instance of the full-adder we hard-coded 0 as the carry (since it was the least significant digit there was nothing to be carried over). For the second instance of the full adder, we wired the carryout of the first instance to the carry-in of the second instance, to represent the "spillover" of the first digit's addition.
 
 ### 1 - How might you add more than two bits together?
 
