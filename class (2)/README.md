@@ -18,7 +18,7 @@ In this lab you've learned the basics of number theory as it relates to addition
 You could add more than two bits together by just continuing to add full-adders for every additional bit getting added. The process just continues, taking the carryout from the full adder from the digit to the right (less significant) and using it as the carry-in for the next full adder.
 
 ### 2 - What is the importance of the XOR gate in an adder?
-The importance of
+The importance of an XOR gate in an adder is to ensure bits getting added result in the correct digit. For instance, when adding 1 + 1, the resulting bit would be 0 (with a carry out). If the gate wasn't exclusive, the addition would result in the incorrect value, i.e 1+1 results in a 1 bit, not zero. (XOR is literally addition)
 
 
 ### 3 - What is the largest number a two bit adder can handle? What happens when you go over?
