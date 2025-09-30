@@ -5,5 +5,5 @@ module full_adder (
     output Y, Cout
 );
 
-assign Y = (A & B & Cin) | ((A ^ B) ^ Cin);
+assign Y = ((A ^ B) ^ Cin);
 assign Cout = (A & B) | (A & Cin) | (B & Cin);
